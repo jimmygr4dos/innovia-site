@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/privacy",
+      "rewrite": "/privacy/"
+    },
+    {
+      "route": "/data-deletion",
+      "rewrite": "/data-deletion/"
+    }
+  ],
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  }
+}
